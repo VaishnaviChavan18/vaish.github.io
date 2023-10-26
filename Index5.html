@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   
+    <title>contactme</title>
+    <script src="https://kit.fontawesome.com/a335999e7e.js" crossorigin="anonymous"></script>
+    <style>
+       body{
+        background: url(con.jpeg);
+       }
+        article{
+            width: 40%;
+            background-color: #e8aded;
+            height: 100%;
+            margin-bottom: 100%;
+            
+        }
+
+           .one{
+              font-size: 35px;
+              margin-left: 30px;
+              color:darkmagenta;
+              height: 25px;
+              margin-top: 10px;
+            
+
+           }
+           .two{
+              width: 50%;
+              height: 25px;
+              margin-left: 40px; 
+              margin-top: 70px; 
+
+           }
+           .three{
+           margin-top: 400px;
+           margin-left: 75px;
+           display: flex;
+         
+           }
+           .three a{
+            width: 80px;
+            height: 70px;
+            text-align: center;
+            text-decoration: none;
+            color: #000;
+            box-shadow: 0 0 20px 10px rgba(0, 0, 0, 0.05);
+            margin: 0 30px;
+            border-radius: 50%;
+            position: relative;
+            overflow: hidden;
+            transform: translate(0.5s);
+
+           }
+           .three a .fa-brands{
+            font-size: 30px;
+            line-height: 80px;
+            position: relative;
+            z-index: 10;
+            transition: color 0.5s;
+           }
+           .three a::after{
+           content: '';
+           width: 100%;
+           height: 100%;
+           top: -90;
+           left: 0;
+           background: linear-gradient(-45deg, #dfd0d0 , #d817ff);
+           position: absolute;
+           transition: 0.5s;
+           }
+           .three a:hover::after{
+            top: 0;
+           }
+           .three a.hover .fa-brands{
+            color: #fff;
+           }
+           .three a:hover{
+            transform: translate(-10px)
+           }
+           h2, .form input, #sbmt-btn{
+                 display: block;
+                 border: none;
+                 margin: 3%;
+                 width: 80%;
+                 padding: 2%;
+           } 
+           h2, .form textarea{
+            display: block;
+            width: 80%;
+            margin: 3%;
+            padding: 2%;
+            border: none;
+           }
+               .con-form input, .con-form textarea{
+            background: rgb(201,192 , 228);
+
+           }
+           ::placeholder{
+            color: rgb(88, 76, 119);
+           }
+           .con-form h2{
+            color: rgb(88, 76, 119);
+           }
+           #sbmt-btn{
+            padding: 2.6em 10em;
+            color: rgb(201, 192, 228);
+            width: 84%;
+            background: rgb(88, 76, 119);
+           }
+           .con-form {
+            width: 60%;
+            margin-left: 608.5px;
+            margin-top: -2110px;
+            background-color: #cc49e7;
+            padding-top: -400px;
+           }
+           h2{
+            width: 20%;
+            font-size: 30px;
+           }
+           
+
+
+    </style>
+</head>
+<body>
+   
+  <article>
+    <header class="one">
+    <h2>CONTACT ME</h2>
+  
+</header>
+    
+
+    <div class="two">
+    <ul>
+        <li><span><a href="addressto:Tap Academy,2nd Block,Rajajinagar,Bangalore"><i class="fa-solid fa-location-dot"></i></a></span>&nbsp &nbsp Tap Academy 2nd Block,Rajajinagar,Bangalore</li> <br>
+        <li><span><a href=tel:fa-solid fa-phone-volume><i class="fa-solid fa-phone-volume"></i></a></span>&nbsp &nbsp 8762372319</li> <br>
+        <li><span><a href="mailto:vaishnavichavan259@gmail.com"><i class="fa-solid fa-envelope-open"></i></a></span>&nbsp &nbsp vaishnavichavan259@gamil.com</li>
+    </ul></div>
+    <div class="three">
+        <a href="http://Instagram.com/vaishnavi___chavan"><i class="fa-brands fa-instagram"></i></a>
+        <a href="https://www.linkedin.com/in/vaishnavi-chavan-56837a250"><i class="fa-brands fa-linkedin"></i></a>
+        <a href="https://vaishnavichavan18.github.io/Vaishu.github.io"><i class="fa-brands fa-github"></i></a>
+        <br><br><br>
+    </div>
+</article>
+      <div class="con-form con-box">
+        <h2>Get in Touch</h2>
+        <form action="Msg.html" class="form">
+  <input type="text" placeholder="Enter Your Full name" name="Enter Your Name" pattern="[a-zA-Z]{3,20}">
+
+  <br>
+
+  <input type="email" placeholder="Enter Your Email" name="Enter Your Email">
+
+  <br>
+
+  <textarea type="Enter the Text Here.." placeholder="Enter the Text here.." ></textarea>
+  
+
+
+  <br><br>
+
+  <a href="Msg.html"><input type="Submit" value="Send" id="sbmt-btn"  ></a>
+
+</form>
+</div>
+</body>
+</html>
